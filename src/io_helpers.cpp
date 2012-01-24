@@ -363,9 +363,13 @@ size_t io::writeUnicodeText(ID3_Writer& writer, String data, bool bom)
     // Write the BOM: 0xFEFF
     unicode_t BOM = 0xFEFF;
     writer.writeChars((const unsigned char*) &BOM, 2);
+
+    unsigned char *pdata = (unsigned char *) data.c_str();
     for (size_t i = 0; i < size; i += 2)
     {
-      unicode_t ch = (data[i] << 8) | data[i+1];
+      // by Rakuraku Jyo, the order is reversed in cpp and must be changed back
+      // for example 0x90A3 = 那 is save in cpp as data[0]=0xA3, data[1]=0x90
+      unicode_t ch = (pdata[i+1] << 8) | pdata[i];
       writer.writeChars((const unsigned char*) &ch, 2);
     }
   }
