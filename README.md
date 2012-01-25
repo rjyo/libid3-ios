@@ -30,9 +30,9 @@ Information about ID3v2 and related standards can be found at:
 
 libid3-ios is a patched version based on [id3lib 3.8.3-2](http://sourceforge.jp/projects/sfnet_easytag/downloads/id3lib/3.8.3-2/id3lib-3.8.3-2.tar.gz/), which is a unicode patch from 3.8.3. But even with 3.8.3-2, unicode was still not working on iOS. The problem is fixed in [this commit](https://github.com/rjyo/libid3-ios/commit/2b994690cad14cdd9b5b80805e89a203680e7966).
 
-Not all makefile and configure script is copied. Only the source (under ./src) and header   (under ./include) files needed is imported into libid3-ios. And as all static library in iOS starts with `lib`. To make this library not something like `libid3lib.a`, I move the `lib` to front.
+Not all makefile and configure script are copied. Only the source (under ./src) and header (under ./include) files needed are imported into libid3-ios. And as all static library in iOS starts with `lib`. To make this library not something like `libid3lib.a`, `lib` was used as a prefix.
 
-A workable iPhone Example project is also included.
+A workable iPhone __Example__ target is also included.
 
 # Installation
 
