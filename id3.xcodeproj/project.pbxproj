@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		324ACF3814CFE8A600265FDF /* id3-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 324ACF3714CFE8A600265FDF /* id3-Prefix.pch */; };
 		32F635CC14CE94EA00B32A67 /* c_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32F635A014CE94E900B32A67 /* c_wrapper.cpp */; };
 		32F635CD14CE94EA00B32A67 /* field_binary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32F635A114CE94E900B32A67 /* field_binary.cpp */; };
 		32F635CE14CE94EA00B32A67 /* field_def.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F635A214CE94E900B32A67 /* field_def.h */; };
@@ -51,10 +52,10 @@
 		32F635F514CE94EA00B32A67 /* tag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32F635C914CE94EA00B32A67 /* tag.cpp */; };
 		32F635F614CE94EA00B32A67 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32F635CA14CE94EA00B32A67 /* utils.cpp */; };
 		32F635F714CE94EA00B32A67 /* writers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32F635CB14CE94EA00B32A67 /* writers.cpp */; };
-		32F635F714CE94EA00B32A69 /* id3-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32F635F714CE94EA00B32A68 /* id3-Prefix.pch */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		324ACF3714CFE8A600265FDF /* id3-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "id3-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		327FED7714CE850000953658 /* libid3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libid3.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F635A014CE94E900B32A67 /* c_wrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = c_wrapper.cpp; path = src/c_wrapper.cpp; sourceTree = SOURCE_ROOT; };
 		32F635A114CE94E900B32A67 /* field_binary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = field_binary.cpp; path = src/field_binary.cpp; sourceTree = SOURCE_ROOT; };
@@ -100,7 +101,6 @@
 		32F635C914CE94EA00B32A67 /* tag.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tag.cpp; path = src/tag.cpp; sourceTree = SOURCE_ROOT; };
 		32F635CA14CE94EA00B32A67 /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = utils.cpp; path = src/utils.cpp; sourceTree = SOURCE_ROOT; };
 		32F635CB14CE94EA00B32A67 /* writers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = writers.cpp; path = src/writers.cpp; sourceTree = SOURCE_ROOT; };
-		32F635F714CE94EA00B32A68 /* id3-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "id3-Prefix.pch"; path = "../../tenpura/SharedLib/libid3/id3-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,7 +186,7 @@
 		327FED7D14CE850000953658 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				32F635F714CE94EA00B32A68 /* id3-Prefix.pch */,
+				324ACF3714CFE8A600265FDF /* id3-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -209,7 +209,7 @@
 				32F635E714CE94EA00B32A67 /* mp3_header.h in Headers */,
 				32F635EB14CE94EA00B32A67 /* spec.h in Headers */,
 				32F635EF14CE94EA00B32A67 /* tag_impl.h in Headers */,
-				32F635F714CE94EA00B32A69 /* id3-Prefix.pch in Headers */,
+				324ACF3814CFE8A600265FDF /* id3-Prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +353,6 @@
 				DSTROOT = /tmp/libid3.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "id3-Prefix.pch";
-				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = id3;
 				SKIP_INSTALL = YES;
 			};
@@ -365,7 +364,6 @@
 				DSTROOT = /tmp/libid3.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "id3-Prefix.pch";
-				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = id3;
 				SKIP_INSTALL = YES;
 			};
