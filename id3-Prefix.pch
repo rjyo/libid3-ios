@@ -1,4 +1,0 @@
-//
-// Prefix header for all source files of the 'libid3' target in the 'libid3' project
-//
-#import "config.h"

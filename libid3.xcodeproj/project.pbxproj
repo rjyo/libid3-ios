@@ -7,7 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		324ACF3814CFE8A600265FDF /* id3-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 324ACF3714CFE8A600265FDF /* id3-Prefix.pch */; };
+		324ACF3814CFE8A600265FDF /* libid3-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 324ACF3714CFE8A600265FDF /* libid3-Prefix.pch */; };
+		325B854714CFED4E0061C897 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 325B854614CFED4E0061C897 /* UIKit.framework */; };
+		325B854914CFED4E0061C897 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 325B854814CFED4E0061C897 /* Foundation.framework */; };
+		325B854B14CFED4E0061C897 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 325B854A14CFED4E0061C897 /* CoreGraphics.framework */; };
+		325B855114CFED4E0061C897 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 325B854F14CFED4E0061C897 /* InfoPlist.strings */; };
+		325B855314CFED4E0061C897 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 325B855214CFED4E0061C897 /* main.m */; };
+		325B855714CFED4E0061C897 /* LIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 325B855614CFED4E0061C897 /* LIAppDelegate.m */; };
+		325B855A14CFED4E0061C897 /* LIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 325B855914CFED4E0061C897 /* LIViewController.m */; };
+		325B855D14CFED4E0061C897 /* LIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 325B855B14CFED4E0061C897 /* LIViewController.xib */; };
+		325B856314CFEDC40061C897 /* libid3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 327FED7714CE850000953658 /* libid3.a */; };
+		325B856514CFEDCA0061C897 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 325B856414CFEDCA0061C897 /* libz.dylib */; };
+		325B856714CFEDD00061C897 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 325B856614CFEDD00061C897 /* libstdc++.dylib */; };
+		325B856914CFEDD70061C897 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 325B856814CFEDD70061C897 /* libiconv.dylib */; };
+		325B856E14CFF0020061C897 /* TagDemo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 325B856D14CFF0020061C897 /* TagDemo.mm */; };
+		325B857414CFF4D00061C897 /* amazing-grace-10s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 325B857314CFF4D00061C897 /* amazing-grace-10s.mp3 */; };
 		32F635CC14CE94EA00B32A67 /* c_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32F635A014CE94E900B32A67 /* c_wrapper.cpp */; };
 		32F635CD14CE94EA00B32A67 /* field_binary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32F635A114CE94E900B32A67 /* field_binary.cpp */; };
 		32F635CE14CE94EA00B32A67 /* field_def.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F635A214CE94E900B32A67 /* field_def.h */; };
@@ -54,8 +68,37 @@
 		32F635F714CE94EA00B32A67 /* writers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32F635CB14CE94EA00B32A67 /* writers.cpp */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		325B856114CFEDBC0061C897 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 327FED6E14CE850000953658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 327FED7614CE850000953658;
+			remoteInfo = libid3;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		324ACF3714CFE8A600265FDF /* id3-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "id3-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		324ACF3714CFE8A600265FDF /* libid3-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "libid3-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		325B854314CFED4E0061C897 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		325B854614CFED4E0061C897 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		325B854814CFED4E0061C897 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		325B854A14CFED4E0061C897 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		325B854E14CFED4E0061C897 /* Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Example-Info.plist"; sourceTree = "<group>"; };
+		325B855014CFED4E0061C897 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		325B855214CFED4E0061C897 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		325B855414CFED4E0061C897 /* Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-Prefix.pch"; sourceTree = "<group>"; };
+		325B855514CFED4E0061C897 /* LIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIAppDelegate.h; sourceTree = "<group>"; };
+		325B855614CFED4E0061C897 /* LIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIAppDelegate.m; sourceTree = "<group>"; };
+		325B855814CFED4E0061C897 /* LIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIViewController.h; sourceTree = "<group>"; };
+		325B855914CFED4E0061C897 /* LIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIViewController.m; sourceTree = "<group>"; };
+		325B855C14CFED4E0061C897 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LIViewController.xib; sourceTree = "<group>"; };
+		325B856414CFEDCA0061C897 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		325B856614CFEDD00061C897 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		325B856814CFEDD70061C897 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		325B856C14CFF0020061C897 /* TagDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagDemo.h; sourceTree = "<group>"; };
+		325B856D14CFF0020061C897 /* TagDemo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TagDemo.mm; sourceTree = "<group>"; };
+		325B857314CFF4D00061C897 /* amazing-grace-10s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "amazing-grace-10s.mp3"; sourceTree = "<group>"; };
 		327FED7714CE850000953658 /* libid3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libid3.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F635A014CE94E900B32A67 /* c_wrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = c_wrapper.cpp; path = src/c_wrapper.cpp; sourceTree = SOURCE_ROOT; };
 		32F635A114CE94E900B32A67 /* field_binary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = field_binary.cpp; path = src/field_binary.cpp; sourceTree = SOURCE_ROOT; };
@@ -104,6 +147,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		325B854014CFED4E0061C897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325B856914CFEDD70061C897 /* libiconv.dylib in Frameworks */,
+				325B856714CFEDD00061C897 /* libstdc++.dylib in Frameworks */,
+				325B856514CFEDCA0061C897 /* libz.dylib in Frameworks */,
+				325B856314CFEDC40061C897 /* libid3.a in Frameworks */,
+				325B854714CFED4E0061C897 /* UIKit.framework in Frameworks */,
+				325B854914CFED4E0061C897 /* Foundation.framework in Frameworks */,
+				325B854B14CFED4E0061C897 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		327FED7414CE850000953658 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -114,10 +171,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		325B854514CFED4E0061C897 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				325B854614CFED4E0061C897 /* UIKit.framework */,
+				325B854814CFED4E0061C897 /* Foundation.framework */,
+				325B854A14CFED4E0061C897 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		325B854C14CFED4E0061C897 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				325B855514CFED4E0061C897 /* LIAppDelegate.h */,
+				325B855614CFED4E0061C897 /* LIAppDelegate.m */,
+				325B856C14CFF0020061C897 /* TagDemo.h */,
+				325B856D14CFF0020061C897 /* TagDemo.mm */,
+				325B855814CFED4E0061C897 /* LIViewController.h */,
+				325B855914CFED4E0061C897 /* LIViewController.m */,
+				325B855B14CFED4E0061C897 /* LIViewController.xib */,
+				325B854D14CFED4E0061C897 /* Supporting Files */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		325B854D14CFED4E0061C897 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				325B857314CFF4D00061C897 /* amazing-grace-10s.mp3 */,
+				325B856814CFEDD70061C897 /* libiconv.dylib */,
+				325B856614CFEDD00061C897 /* libstdc++.dylib */,
+				325B856414CFEDCA0061C897 /* libz.dylib */,
+				325B854E14CFED4E0061C897 /* Example-Info.plist */,
+				325B854F14CFED4E0061C897 /* InfoPlist.strings */,
+				325B855214CFED4E0061C897 /* main.m */,
+				325B855414CFED4E0061C897 /* Example-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		327FED6C14CE850000953658 = {
 			isa = PBXGroup;
 			children = (
 				327FED7C14CE850000953658 /* src */,
+				325B854C14CFED4E0061C897 /* Example */,
+				325B854514CFED4E0061C897 /* Frameworks */,
 				327FED7814CE850000953658 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				327FED7714CE850000953658 /* libid3.a */,
+				325B854314CFED4E0061C897 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -186,7 +286,7 @@
 		327FED7D14CE850000953658 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				324ACF3714CFE8A600265FDF /* id3-Prefix.pch */,
+				324ACF3714CFE8A600265FDF /* libid3-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -209,16 +309,34 @@
 				32F635E714CE94EA00B32A67 /* mp3_header.h in Headers */,
 				32F635EB14CE94EA00B32A67 /* spec.h in Headers */,
 				32F635EF14CE94EA00B32A67 /* tag_impl.h in Headers */,
-				324ACF3814CFE8A600265FDF /* id3-Prefix.pch in Headers */,
+				324ACF3814CFE8A600265FDF /* libid3-Prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		327FED7614CE850000953658 /* id3 */ = {
+		325B854214CFED4E0061C897 /* Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 327FED8414CE850000953658 /* Build configuration list for PBXNativeTarget "id3" */;
+			buildConfigurationList = 325B855E14CFED4E0061C897 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				325B853F14CFED4E0061C897 /* Sources */,
+				325B854014CFED4E0061C897 /* Frameworks */,
+				325B854114CFED4E0061C897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				325B856214CFEDBC0061C897 /* PBXTargetDependency */,
+			);
+			name = Example;
+			productName = Example;
+			productReference = 325B854314CFED4E0061C897 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		327FED7614CE850000953658 /* libid3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327FED8414CE850000953658 /* Build configuration list for PBXNativeTarget "libid3" */;
 			buildPhases = (
 				327FED7314CE850000953658 /* Sources */,
 				327FED7414CE850000953658 /* Frameworks */,
@@ -228,7 +346,7 @@
 			);
 			dependencies = (
 			);
-			name = id3;
+			name = libid3;
 			productName = libid3;
 			productReference = 327FED7714CE850000953658 /* libid3.a */;
 			productType = "com.apple.product-type.library.static";
@@ -242,7 +360,7 @@
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "ラクラクテクノロジーズ";
 			};
-			buildConfigurationList = 327FED7114CE850000953658 /* Build configuration list for PBXProject "id3" */;
+			buildConfigurationList = 327FED7114CE850000953658 /* Build configuration list for PBXProject "libid3" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -254,12 +372,37 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				327FED7614CE850000953658 /* id3 */,
+				327FED7614CE850000953658 /* libid3 */,
+				325B854214CFED4E0061C897 /* Example */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		325B854114CFED4E0061C897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325B855114CFED4E0061C897 /* InfoPlist.strings in Resources */,
+				325B855D14CFED4E0061C897 /* LIViewController.xib in Resources */,
+				325B857414CFF4D00061C897 /* amazing-grace-10s.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		325B853F14CFED4E0061C897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325B855314CFED4E0061C897 /* main.m in Sources */,
+				325B855714CFED4E0061C897 /* LIAppDelegate.m in Sources */,
+				325B855A14CFED4E0061C897 /* LIViewController.m in Sources */,
+				325B856E14CFF0020061C897 /* TagDemo.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		327FED7314CE850000953658 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -302,7 +445,65 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		325B856214CFEDBC0061C897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 327FED7614CE850000953658 /* libid3 */;
+			targetProxy = 325B856114CFEDBC0061C897 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		325B854F14CFED4E0061C897 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				325B855014CFED4E0061C897 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		325B855B14CFED4E0061C897 /* LIViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				325B855C14CFED4E0061C897 /* en */,
+			);
+			name = LIViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		325B855F14CFED4E0061C897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Example/Example-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		325B856014CFED4E0061C897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Example/Example-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		327FED8214CE850000953658 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -322,7 +523,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/include/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/include";
 				SDKROOT = iphoneos;
 			};
@@ -340,7 +541,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/include/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/include";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -352,7 +553,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/libid3.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "id3-Prefix.pch";
+				GCC_PREFIX_HEADER = config.h;
 				PRODUCT_NAME = id3;
 				SKIP_INSTALL = YES;
 			};
@@ -363,7 +564,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/libid3.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "id3-Prefix.pch";
+				GCC_PREFIX_HEADER = config.h;
 				PRODUCT_NAME = id3;
 				SKIP_INSTALL = YES;
 			};
@@ -372,7 +573,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		327FED7114CE850000953658 /* Build configuration list for PBXProject "id3" */ = {
+		325B855E14CFED4E0061C897 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				325B855F14CFED4E0061C897 /* Debug */,
+				325B856014CFED4E0061C897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		327FED7114CE850000953658 /* Build configuration list for PBXProject "libid3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				327FED8214CE850000953658 /* Debug */,
@@ -381,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		327FED8414CE850000953658 /* Build configuration list for PBXNativeTarget "id3" */ = {
+		327FED8414CE850000953658 /* Build configuration list for PBXNativeTarget "libid3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				327FED8514CE850000953658 /* Debug */,
